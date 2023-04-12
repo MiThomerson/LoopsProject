@@ -12,8 +12,8 @@ for (i=5; i < 26; i=i+4) {
 const wizards = [`Harry Potter`, `Hermione Granger`, `Ron Weasley`];
 
 // 3b.
-for (i=0; i<3; i++) {
-    console.log(wizards[i]);
+for (wiz of wizards) {
+    console.log(wiz);
 }
 
 // 4a. 
@@ -23,6 +23,8 @@ let harryPotterMovies = 0;
 while (harryPotterMovies < 8) {
     harryPotterMovies++;
 }
+
+//4c.
 console.log(harryPotterMovies);
 
 // BONUS
@@ -31,16 +33,10 @@ console.log(harryPotterMovies);
 const hogwartsHouses = [`Gryffindor`, `Hufflepuff`, `Ravenclaw`, `Slytherin`];
 
 // 5b.
-for(i=0; i<4; i++ ){
- if (i<2) {
-    for(n=0; n<=9; n++){
-console.log(hogwartsHouses[i][n]);
-}}
- else {
-    for(n=0; n<=8; n++){
-        console.log(hogwartsHouses[i][n]);
-        }
-}
+for (house of hogwartsHouse){
+    for (letter of house){
+        console.log
+    }
 }
 
 // 6a.
